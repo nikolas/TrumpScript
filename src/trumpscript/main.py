@@ -8,8 +8,9 @@ __author__ = 'github.com/samshadwell'
 
 
 def main():
-    # TrumpScript only runs in ascii mode. If you don't speak English
-    # you can't write TrumpScript.
+    # TrumpScript only runs in ascii mode. Strings written in languages
+    # other than English aren't understood or considered important by
+    # TrumpScript.
     sys.setdefaultencoding('ascii')
 
     if len(sys.argv) != 2:
